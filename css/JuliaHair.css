@@ -1,0 +1,124 @@
+*{padding: 0;
+    margin: 0;
+    border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+body{
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header img{
+    max-width: 100%;
+}
+
+.header{
+        width: 1170px;
+        margin: 0 auto;
+        border: 3px solid black;
+        border-radius: 25px;
+        background-color:  rgb(243, 196, 225);
+        padding: 30px 30px;
+        display: flex;
+        justify-content: center;
+        
+        
+
+        
+
+}
+ .header__amblem{
+        width: 750px;
+        margin: 0 auto;
+        color: rgb(255, 255, 255);
+        background-color:  rgb(179, 85, 143);
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+
+} 
+
+.header__title{
+    color: rgb(186, 127, 242);
+    font-size: 78px;
+    padding:15px;
+    margin: 0 auto;
+    text-align: center;
+    text-shadow: 4px 6px 4px rgb(61, 21, 63);
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+.menu2{
+        width: 1170px;
+        height: 70px;
+        background-color: rgb(186, 250, 229);
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+}
+
+.menu .menu__item1{
+    color: blue;
+    font-size: 25px;
+    margin: 20px;
+    
+
+}
+
+.menu .menu__item2{
+    color: blue;
+    font-size: 25px;
+    margin: 20px;
+}
+
+ .menu .menu__item3{
+        color: blue;
+        font-size: 25px;
+        margin: 20px;
+}
+
+ .menu .menu__item4{
+            color: blue;
+            font-size: 25px;
+            margin: 20px;
+}
+            
